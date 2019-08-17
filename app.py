@@ -8,8 +8,8 @@ import sqlite3
 entry_range=35
 db_path="//mygbynbyn1ms000.corp.lumileds.org/Operations/Daily Reports/Equipment Downtime Details/film.db"
 #db_path="film.db"
-OPTIONS=['DB_to_Freezer#1','DB_to_Freezer#2','DB_to_Freezer#8','Freezer#1_to_Prod','Freezer#2_to_Prod','Freezer#8_to_Prod',
-           'Prod_to_Freezer#1', 'Prod_to_Freezer#2','Prod_to_Freezer#8','Freezer#1_to_DB','Freezer#2_to_DB','Freezer#8_to_DB']
+OPTIONS=['DB_to_Freezer#1','DB_to_Freezer#13','DB_to_Freezer#8','Freezer#1_to_Prod','Freezer#13_to_Prod','Freezer#8_to_Prod',
+           'Prod_to_Freezer#1', 'Prod_to_Freezer#13','Prod_to_Freezer#8','Freezer#1_to_DB','Freezer#13_to_DB','Freezer#8_to_DB']
 pw_list=['chan12345']
 
 def connect():
